@@ -3,10 +3,8 @@ Student Fine Management System
 Overview
 Console-based Student Fine Management System supporting Admin, Cashier, and Student roles with role-based access control.
 
-Total Marks Covered: 85/100 (Student transactions/balance features excluded per requirement)
-
 Features Implemented
-✅ Admin (40/40 marks)
+✅ Admin
  View all student payments
 
  Filter payments by fine type
@@ -23,23 +21,19 @@ Features Implemented
 
  Delete payment
 
-✅ Cashier (15/15 marks)
+✅ Cashier
  Add payment
 
  Update payment
 
  Delete payment
 
-✅ Student (10/20 marks)
+✅ Student
  View profile
 
  Edit profile
 
- View personal transactions (excluded)
-
- View current balance (excluded)
-
-✅ Common Features (10/10 marks)
+✅ Common Features
  User Registration
 
  User Login (role-based access)
@@ -51,6 +45,7 @@ In-memory storage (ArrayList)
 
 java.util.Date for timestamps
 
+
 File Structure
 text
 mainpackage/
@@ -58,6 +53,7 @@ mainpackage/
 ├── User.java      (User authentication + operations)
 ├── Payment.java   (Payment data model)
 └── Student.java   (Student profile)
+
 How to Run
 Compile:
 
@@ -77,9 +73,9 @@ text
 1. Start → Default Admin created
 2. Register/Login screen
 3. Role-based dashboard:
-   - ADMIN: Full CRUD + 4 Filters (40 marks)
-   - CASHIER: CRUD only (15 marks)  
-   - STUDENT: Profile view/edit (10 marks)
+   - ADMIN: Full CRUD + 4 Filters
+   - CASHIER: CRUD only  
+   - STUDENT: Profile view/edit
 4. Logout → Back to auth screen
 Sample Operations
 Admin Filters:
